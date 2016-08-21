@@ -12,13 +12,13 @@ object LearningScala2 {
   }                                               //> The world makes sense.
   
   // Matching - like switch in other languages:
-  val number = 3                                  //> number  : Int = 3
+  val number = 2                                  //> number  : Int = 2
   number match {
   	case 1 => println("One")
   	case 2 => println("Two")
   	case 3 => println("Three")
   	case _ => println("Something else")
- 	}                                         //> Three
+ 	}                                         //> Two
  	
  	// For loops
  	for (x <- 1 to 4) {
@@ -70,6 +70,14 @@ object LearningScala2 {
 	 // Write some code that prints out the first 10 values of the Fibonacci sequence.
 	 // This is the sequence where every number is the sum of the two numbers before it.
 	 // So, the result should be 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
+	 
+	 val n1 = 0                               //> n1  : Int = 0
+	 val n2 = 1                               //> n2  : Int = 1
+	 println(n1 + " " + n2)                   //> 0 1
+
+	 
+	 
+	 
 	 
 	   
 }
